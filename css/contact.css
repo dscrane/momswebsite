@@ -1,0 +1,177 @@
+h1 { /*Carrie Crane*/
+    margin-top:25px;
+    text-align: center;
+    color: #6E7272;
+    font: europa;
+    font-size: 49px;
+
+}
+
+h2{ /*hyperlinks*/
+    margin-top:20px;
+    text-align: center;
+    word-spacing: 5px;
+    font: proxima-nova;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+h3{ /*Page header*/
+    margin-top:25px;
+    margin-bottom:20px;
+    text-align: center;
+    color: #6E7272;
+    font: europa;
+    font-size: 30px;
+}
+
+a.homepage{ /*Carrie Crane link*/
+    color: rgba(36,32,32,.5);
+    text-decoration: none
+}
+
+a.homepage:hover{ /*Carrie Crane link*/
+    color: rgba(0, 0, 0, 0.863);
+    text-decoration: none;
+    border-bottom: none;
+}
+
+a{ /*Other links*/
+    color: rgba(36, 32, 32, .5);
+    text-decoration: none;
+
+}
+
+a:hover{ /*Other links*/
+    color: rgba(0, 0, 0, 0.863);
+    border-bottom: 2px solid rgba(87, 81, 81, 0.5);
+    text-decoration: none
+}
+
+body{ /*body text*/
+
+    color: #6E7272;
+    font-family: proxima-nova,sans-serif;    
+    font-style: normal;
+    font-weight: 400;
+     
+}
+
+.container { /*Dialogue Container*/
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 1%;
+    max-width: 725px; 
+    height: 100%;
+    padding-top: 1%;
+    background-color: rgba(255, 255, 255, 0.455);
+    
+}
+
+    input[type=text], select, textarea { /*name*/
+        width: 100%;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        resize: vertical;
+        
+    }
+
+    input[type=tel], select, textarea { /*Phone number*/
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    resize: vertical;
+
+    }
+
+    input[type=email], select, textarea { /*Phone email*/
+        width: 100%;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        resize: vertical;
+        
+    }
+
+    .form_message { /*Message box*/
+        width: 100%;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 0px;
+        margin-bottom: 15px;
+        resize: vertical;
+
+    }
+
+    .text-muted { /*Required field notice*/
+        margin-top: 10px;
+    }
+
+    input[type=submit] { /*Submit Button*/
+
+        background-color: rgba(0,0,0,0);
+        color: black;
+        align-items: flex-start;
+        padding-bottom: 1px;
+        padding-top: 1px;
+        padding-left: 1px;
+        padding-right: 1px;
+        box-sizing: border-box;
+        border-bottom-color: rgb(39,39,39);
+        border-bottom-width: 2px;
+        border-block-end-style: solid;
+        border-left-color: rgb(39,39,39);
+        border-left-width: 2px;
+        border-block-end-style: solid;
+        border-right-color: rgb(39,39,39);
+        border-right-width: 2px;
+        border-block-end-style: solid;
+        border-top-color: rgb(39,39,39);
+        border-top-width: 2px;
+        border-block-end-style: solid;
+        text-align: center;
+        text-transform: uppercase;
+        vertical-align: baseline;
+        white-space: pre;
+        width: 129px;
+        height: 45px;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover { /*Submit Button Hover*/
+        color:white;
+        background-color: rgb(39,39,39);
+        border-bottom-color: rgb(39,39,39);
+        border-bottom-width: 2px;
+        border-left-color: rgb(39,39,39);
+        border-left-width: 2px;
+        border-right-color: rgb(39,39,39);
+        border-right-width: 2px;
+        border-top-color: rgb(39,39,39);
+        border-top-width: 2px;
+    }
+
+
+
+.footer { /*Formatting the footer at the bottom of the page*/
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

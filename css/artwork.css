@@ -1,0 +1,162 @@
+h1 { /*Carrie Crane*/
+    margin-top:25px;
+    text-align: center;
+    color: #6E7272;
+    font: europa;
+    font-size: 49px;
+
+}
+
+h2{ /*hyperlinks*/
+    margin-top:20px;
+    text-align: center;
+    word-spacing: 5px;
+    font: proxima-nova;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+h3{ /*Page header*/
+    margin-top:35px;
+    margin-bottom:40px;
+    text-align: center;
+    color: #6E7272;
+    font: europa;
+    font-size: 30px;
+}
+
+a.homepage{ /*Carrie Crane link*/
+    color: rgba(36,32,32,.5);
+    text-decoration: none
+}
+
+a.homepage:hover{ /*Carrie Crane link*/
+    color: rgba(0, 0, 0, 0.863);
+    text-decoration: none;
+    border-bottom: none;
+}
+
+a{ /*Other links*/
+    color: rgba(36, 32, 32, .5);
+    text-decoration: none;
+
+}
+
+a:hover{ /*Other links*/
+    color: rgba(0, 0, 0, 0.863);
+    border-bottom: 2px solid rgba(87, 81, 81, 0.5);
+    text-decoration: none
+}
+
+body{ /*body text*/
+    text-align: center;
+    color: #6E7272;
+    background-color: #f0f0f0;
+    font-family: europa,sans-serif;
+    font-size: 16px;
+
+}
+
+
+
+
+
+.myImg { /*image formatting*/
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.myImg:hover { /*hover formatting*/
+    box-shadow: 0 0 2px 1px rgba(0,140,186,0.5);
+    cursor: pointer;
+    opacity: 0.7;
+
+}
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+    padding-bottom: 10px;
+    top: 1;
+    left: 1;
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 75%;
+    max-width: 550px;
+    border: black;
+    border-width: 1px;
+    
+    
+}
+
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    height: 75px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+.footer { /*Formatting the footer at the bottom of the page*/
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

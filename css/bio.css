@@ -1,0 +1,87 @@
+h1 { /*Carrie Crane*/
+    margin-top:25px;
+    text-align: center;
+    color: #6E7272;
+    font: europa;
+    font-size: 49px;
+
+}
+
+h2{ /*hyperlinks*/
+    margin-top:20px;
+    text-align: center;
+    word-spacing: 5px;
+    font: proxima-nova;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+h3{ /*Page header*/
+    margin-top:25px;
+    margin-bottom:1px;
+    text-align: center;
+    color: #6E7272;
+    font: europa;
+    font-size: 30px;
+}
+
+a.homepage{ /*Carrie Crane link*/
+    color: rgba(36,32,32,.5);
+    text-decoration: none
+}
+
+a.homepage:hover{ /*Carrie Crane link*/
+    color: rgba(0, 0, 0, 0.863);
+    text-decoration: none;
+    border-bottom: none;
+}
+
+a{ /*Other links*/
+    color: rgba(36, 32, 32, .5);
+    text-decoration: none;
+
+}
+
+a:hover{ /*Other links*/
+    color: rgba(0, 0, 0, 0.863);
+    border-bottom: 2px solid rgba(87, 81, 81, 0.5);
+    text-decoration: none
+}
+
+
+body{ /*body text*/
+    text-align: center;
+    color: #6E7272;
+    background-color: #f0f0f0;
+    font-family: europa,sans-serif;
+    font-size: 16px;
+}
+
+div.carrie { /*Picture of Artist*/
+    text-align: center;
+}
+
+.carrieimg {
+    border-radius: 5px;
+}
+
+
+
+div.bio-text { /*Biography Text*/
+    padding-top: .25%;
+    width: 500px;
+    margin: auto;
+    overflow-wrap: normal;
+    position: relative;
+
+}
+
+.footer { /*Formatting the footer at the bottom of the page*/
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
