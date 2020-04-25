@@ -1,0 +1,98 @@
+@import "./css/artwork.css";
+@import "./css/bio.css";
+@import "./css/contact.css";
+@import "./css/events.css";
+@import "./css/index.css";
+
+body {
+  color: #6e7272;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 14px;
+}
+
+header footer nav section {
+  display: flex;
+}
+
+header {
+  text-align: center;
+  margin-top: 5%;
+}
+
+header h1 {
+  font-size: 3.5em;
+  font-weight: 100;
+  margin-bottom: 3%;
+}
+
+nav {
+  margin: 3%;
+  font-weight: 300;
+  font-size: 1em;
+}
+
+a.homepage {
+  /*Carrie Crane link*/
+  color: rgba(36, 32, 32, 0.5);
+  text-decoration: none;
+}
+
+a.homepage:hover {
+  /*Carrie Crane link*/
+  color: rgba(0, 0, 0, 0.863);
+  text-decoration: none;
+  border-bottom: none;
+}
+
+a {
+  /*Other links*/
+  color: rgba(36, 32, 32, 0.5);
+  text-decoration: none;
+  margin: 0 1%;
+}
+
+a:hover {
+  /*Other links*/
+  color: rgba(0, 0, 0, 0.863);
+  border-bottom: 2px solid rgba(87, 81, 81, 0.5);
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  border: 2px solid lightgray;
+  background-color: #fbf9f9;
+  width: 95%;
+  max-width: 1300px;
+  min-height: 98vh;
+  margin: auto;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.content {
+  width: 100%;
+  min-height: 62vh;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+section header {
+  margin-top: 0;
+}
+
+section h1 {
+  font-size: 40px;
+  margin: 0 0 5% 0;
+}
+
+hr {
+  width: 60%;
+  border: 0.5px solid rgba(139, 136, 136, 0.39);
+}
+
+footer {
+  overflow: hidden;
+}

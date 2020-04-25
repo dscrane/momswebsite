@@ -1,0 +1,45 @@
+.index-img-container {
+  height: 100%;
+  width: 95%;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.img-container-row {
+  display: flex;
+  width: 40%;
+  max-width: 500px;
+  margin: auto;
+}
+
+.indeximg {
+  display: flex;
+  margin: auto;
+  border-radius: 1%;
+  height: auto;
+  width: 48%;
+}
+
+.indeximg.wide {
+  display: flex;
+  height: auto;
+  width: 100%;
+}
+
+.indeximg.img-row {
+  display: inline-flex;
+  flex-direction: row;
+  margin-bottom: 2%;
+
+  justify-content: space-around;
+}
+
+.text-section {
+  display: flex;
+  width: 95%;
+  padding: 2%;
+  max-width: 500px;
+  margin: auto;
+  overflow-wrap: normal;
+  line-height: 1.8em;
+}
