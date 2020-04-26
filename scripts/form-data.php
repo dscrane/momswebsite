@@ -1,12 +1,7 @@
 if ( isset( $_POST['submit'] ) ) {
 
-  $firstname = $_REQUEST['name'][0];
-  $lastname = $_REQUEST['name'][1];
-  $email = $_REQUEST['email'];
-  $phone = $_REQUEST['phone'];
-  $message = $_REQUEST['message'];
   
 
-  echo '{$firstname . '/n' . $lastname . '/n' . $email . '/n' . $phone . '/n' . $message}'
+  echo "{ <br />\\n" . $_REQUEST['first-name'] . "<br />\\n" . $_REQUEST['last-name'] ."<br />\\n" . $_REQUEST['email'] . "<br />\\n" . $_REQUEST['phone'] . "<br />\\n" . $_REQUEST['message'] . "<br />\\n}";
   
 }
