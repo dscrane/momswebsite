@@ -8,11 +8,11 @@
   <body>
     <p>
       {<br />
-      First Name: <?php echo $_POST["first-name"]?> <br />
-      Last Name: <?php echo $_POST["last-name"]?> <br />
-      Email: <?php echo $_POST["email"]?> <br />
-      Phone: <?php echo $_POST["phone"]?> <br />
-      Message: <?php echo $_POST["message"]?> <br />
+      &nbsp;&nbsp;First Name: <?php echo $_POST["first-name"]?> <br />
+      &nbsp;&nbsp;Last Name: <?php echo $_POST["last-name"]?> <br />
+      &nbsp;&nbsp;Email: <?php echo $_POST["email"]?> <br />
+      &nbsp;&nbsp;Phone: <?php echo $_POST["phone"]?> <br />
+      &nbsp;&nbsp;Message: <?php echo $_POST["message"]?> <br />
       }
     </p>
   </body>
