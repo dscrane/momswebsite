@@ -1,8 +1,5 @@
-@import "./css/artwork.css";
-@import "./css/bio.css";
-@import "./css/contact.css";
 @import "./css/events.css";
-@import "./css/index.css";
+@import "./css/contact.css";
 
 .page {
   color: #6e7272;
@@ -19,7 +16,7 @@
   max-width: 1300px;
   min-height: 98vh;
   margin: auto;
-  overflow: hidden;
+
   flex-direction: column;
 }
 
@@ -75,6 +72,7 @@
 
 .content {
   width: 100%;
+  min-height: 62vh;
   margin: 0 auto;
   padding: 0;
   display: flex;
@@ -135,6 +133,11 @@
   flex-direction: column;
 }
 
+.content__calendar {
+  width: 60%;
+  margin: auto;
+}
+
 .content__gallery {
   display: flex;
   flex-wrap: wrap;
@@ -174,6 +177,7 @@
   z-index: 1;
   width: 75%;
   height: 75%;
+  max-width: 975px;
   overflow: auto;
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.9);
@@ -188,7 +192,7 @@
   border-width: 1px;
 }
 
-#caption {
+.content__gallery-modal-caption {
   margin: auto;
   display: block;
   width: 80%;
@@ -215,6 +219,66 @@
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
+}
+
+.content__form {
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+
+.content__form-table {
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.content__form-row {
+  width: 100%;
+}
+
+.content__form-label {
+  vertical-align: middle;
+  width: 20%;
+  max-width: 100px;
+}
+
+.content__form-input {
+  width: 95%;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 14px;
+  text-align: left;
+  margin: 2% 0;
+  border: 0.5px solid rgb(145, 145, 145);
+  border-radius: 3px;
+  padding: 2px 3px;
+}
+
+.content__form-input_textarea {
+  resize: none;
+}
+
+.content__form-input_input {
+  height: 25px;
+}
+
+.content__form-row_button {
+  height: 50px;
+}
+
+.content__form-cta {
+  margin: auto;
+  height: 35px;
+  width: 25%;
+  background-color: lightgrey;
+  border: none;
+  border-radius: 5%;
+}
+
+.content__form-cta:hover {
+  background-color: rgb(129, 129, 129);
+  cursor: pointer;
+  color: white;
 }
 
 .footer {

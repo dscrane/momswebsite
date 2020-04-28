@@ -11,108 +11,130 @@
     <link href="../style.css" rel="stylesheet" />
     <title>Contact</title>
   </head>
-  <body>
+  <body class="page">
     <div class="container">
-      <header>
-        <h1>
-          <a class="homepage" href="/index.html">Carrie Crane</a>
+      <header class="container__header">
+        <h1 class="container__header-title">
+          <a
+            class="container__header-link container__header-link_home"
+            href="/index.html"
+            >Carrie Crane</a
+          >
         </h1>
-        <nav>
-          <hr />
+        <nav class="container__header-nav">
+          <hr class="container__header-break" />
           <h4>
-            <a class="artwork" href="/html/artwork.html">ARTWORK</a>
-            <a class="bio" href="/html/biography.html">BIOGRAPHY</a>
-            <a class="events" href="/html/events.html">EVENTS</a>
-            <a class="contact" href="/html/contact.html">CONTACT</a>
+            <a class="container__header-link" href="/html/artwork.html"
+              >ARTWORK</a
+            >
+            <a class="container__header-link" href="/html/biography.html"
+              >BIOGRAPHY</a
+            >
+            <a class="container__header-link" href="/html/events.html"
+              >EVENTS</a
+            >
+            <a class="container__header-link" href="/html/contact.html"
+              >CONTACT</a
+            >
           </h4>
-          <hr />
+          <hr class="container__header-break" />
         </nav>
       </header>
-      <div class="content">
-        <section>
-          <header>
-            <h1>Contact Carrie</h1>
-          </header>
-          <form method="post" action="../scripts/form-data.php">
-            <table>
-              <tr>
-                <td class="form-label">
-                  <label for="form-name">First Name*</label>
-                </td>
-                <td class="form-input">
-                  <input
-                    id="form-name"
-                    type="text"
-                    name="first-name"
-                    placeholder="First name..."
-                  />
-                </td>
-              </tr>
-              <tr>
-                <td class="form-label">
-                  <label for="form-last-name">Last Name*</label>
-                </td>
-                <td class="form-input">
-                  <input
-                    id="form-last-name"
-                    type="text"
-                    name="last-name"
-                    placeholder="Last name..."
-                  />
-                </td>
-              </tr>
-              <tr>
-                <td class="form-label">
-                  <label for="form-email">Email*</label>
-                </td>
-                <td class="form-input">
-                  <input
-                    id="form-email"
-                    type="email"
-                    name="email"
-                    placeholder="Email..."
-                  />
-                </td>
-              </tr>
-              <tr>
-                <td class="form-label">
-                  <label for="form-phone">Phone </label>
-                </td>
-                <td class="form-input">
-                  <input
-                    id="form-phone"
-                    type="text"
-                    name="phone"
-                    placeholder="(555) 555-5555"
-                  />
-                </td>
-              </tr>
-              <tr>
-                <td class="form-label">
-                  <label for="form-message">Message*</label>
-                </td>
-                <td class="form-input">
-                  <textarea
-                    id="form-message"
-                    name="message"
-                    rows="5"
-                    placeholder="Message of Carrie..."
-                  ></textarea>
-                </td>
-              </tr>
-              <tr class="button-row">
-                <td class="form-label"></td>
-                <td class="form-input button">
-                  <button type="submit">Submit</button>
-                </td>
-              </tr>
-            </table>
-          </form>
-        </section>
-      </div>
-      <footer>
-        <div>
-          <p>&emsp;&copy; Carrie Crane.</p>
+      <section class="content">
+        <header class="content__header">
+          <h1 class="content__header-title">Contact Carrie</h1>
+        </header>
+        <form
+          class="content__form"
+          method="post"
+          action="../scripts/form-data.php"
+        >
+          <table class="content__form-table">
+            <tr class="content__form-row">
+              <td class="content__form-label">
+                <label for="name">First Name*</label>
+              </td>
+              <td>
+                <input
+                  class="content__form-input content__form-input_input"
+                  id="form-name"
+                  type="text"
+                  name="first-name"
+                  placeholder="First name..."
+                />
+              </td>
+            </tr>
+            <tr class="content__form-row">
+              <td class="content__form-label">
+                <label for="last-name">Last Name*</label>
+              </td>
+              <td>
+                <input
+                  class="content__form-input content__form-input_input"
+                  id="form-last-name"
+                  type="text"
+                  name="last-name"
+                  placeholder="Last name..."
+                />
+              </td>
+            </tr>
+            <tr class="content__form-row">
+              <td class="content__form-label">
+                <label for="email">Email*</label>
+              </td>
+              <td>
+                <input
+                  class="content__form-input content__form-input_input"
+                  id="form-email"
+                  type="email"
+                  name="email"
+                  placeholder="Email..."
+                />
+              </td>
+            </tr>
+            <tr class="content__form-row">
+              <td class="content__form-label">
+                <label for="phone">Phone </label>
+              </td>
+              <td>
+                <input
+                  class="content__form-input content__form-input_input"
+                  id="form-phone"
+                  type="text"
+                  name="phone"
+                  placeholder="(555) 555-5555"
+                />
+              </td>
+            </tr>
+            <tr class="content__form-row">
+              <td class="content__form-label">
+                <label for="message">Message*</label>
+              </td>
+              <td>
+                <textarea
+                  class="content__form-input content__form-input_input_textarea"
+                  id="form-message"
+                  name="message"
+                  rows="5"
+                  placeholder="Message of Carrie..."
+                ></textarea>
+              </td>
+            </tr>
+            <tr class="content__form-row content__form-row_button">
+              <td class="content__form-label"></td>
+              <td class="content__form-button">
+                <button class="content__form-cta" type="submit">
+                  Submit
+                </button>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </section>
+
+      <footer class="footer">
+        <div class="footer__container">
+          <p class="footer__content">&emsp;&copy; Carrie Crane.</p>
         </div>
       </footer>
     </div>
