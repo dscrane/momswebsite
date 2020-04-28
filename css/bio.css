@@ -1,18 +1,7 @@
-.text-section {
-  display: flex;
-  width: 95%;
-  padding: 2%;
-  max-width: 500px;
-  margin: auto;
-  overflow-wrap: normal;
-  line-height: 1.8em;
-  flex-direction: column;
-}
-
-.bio-img {
+/* .bio-img {
   display: flex;
   margin: auto;
   border-radius: 1%;
   height: auto;
   width: 15%;
-}
+} */

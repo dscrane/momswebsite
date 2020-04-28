@@ -11,45 +11,56 @@
     <link href="style.css" rel="stylesheet" />
     <title>Carrie Crane</title>
   </head>
-  <body>
+  <body class="page">
     <div class="container">
-      <header>
-        <h1>
-          <a class="homepage" href="/index.html">Carrie Crane</a>
+      <header class="container__header">
+        <h1 class="container__header-title">
+          <a
+            class="container__header-link container__header-link_home"
+            href="/index.html"
+            >Carrie Crane</a
+          >
         </h1>
-        <nav>
-          <hr />
+        <nav class="container__header-nav">
+          <hr class="container__header-break" />
           <h4>
-            <a class="artwork" href="/html/artwork.html">ARTWORK</a>
-            <a class="bio" href="/html/biography.html">BIOGRAPHY</a>
-            <a class="events" href="/html/events.html">EVENTS</a>
-            <a class="contact" href="/html/contact.html">CONTACT</a>
+            <a class="container__header-link" href="/html/artwork.html"
+              >ARTWORK</a
+            >
+            <a class="container__header-link" href="/html/biography.html"
+              >BIOGRAPHY</a
+            >
+            <a class="container__header-link" href="/html/events.html"
+              >EVENTS</a
+            >
+            <a class="container__header-link" href="/html/contact.html"
+              >CONTACT</a
+            >
           </h4>
-          <hr />
+          <hr class="container__header-break" />
         </nav>
       </header>
-      <div class="content">
-        <div class="index-img-container">
-          <div class="img-container-row">
+      <section class="content">
+        <div class="content__image-container">
+          <div class="content__image-row">
             <img
-              class="indeximg img-row"
+              class="content__image content__image_multi"
               src="https://myporchblog.files.wordpress.com/2010/03/a2a5d-nestledbarn.jpg"
             />
             <img
-              class="indeximg img-row"
+              class="content__image content__image_multi"
               src="https://fitchburgartmuseum.org/wp-content/uploads/2019/06/Orbs-and-Orbits-Edit.jpg"
             />
           </div>
-          <div class="img-container-row wide">
+          <div class="content__image-row">
             <img
-              class="indeximg wide"
+              class="content__image content__image_wide"
               src="https://images.squarespace-cdn.com/content/v1/567b1b642399a36b8ece7639/1562948003026-9UT7PTI0M74CDH9ZBCSE/ke17ZwdGBToddI8pDm48kLGFiU4M3igwj7w7qT0TpT8UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcIxcg45sp4alROPEC6dX8h7O_mYPjmRpykRmg7TeFM9xe9TMEIseFVVVXa1uvelfp/FAM+install+shot+1.jpg?format=1000w"
             />
           </div>
         </div>
-        <div class="text-section">
-          <section>
-            <p>
+        <section class="content__text">
+            <p class="content__text-paragraph">
               &ldquo;Worcester-area artist Carrie Crane creates instruments and
               graphic displays that seemingly seek to know the unknowable by
               attempting to capture and quantify the most elusive of things: the
@@ -61,7 +72,7 @@
               Art Museum
             </p>
 
-            <p>
+            <p class="content__text-paragraph">
               For several years now Carrie has been creating two-dimensional
               works that suggest ambiguous maps, graphs, and diagrams. The
               natural extension of this work for her was to create ambiguous
@@ -69,24 +80,24 @@
               which the 2D work would be derived.
             </p>
 
-            <p>
+            <p class="content__text-paragraph">
               The instruments, made from an assortment of found and acquired
               materials, despite their scattered origins, appear as functional
               objects. Each instrument leads to “data” and the accompanying 2D
               graphic analysis.
             </p>
 
-            <p>
+            <p class="content__text-paragraph">
               Gallery photo credit: <strong>Charles Sternaimolo</strong>. Detail
               photo credits: <strong>Will Howcroft</strong> and
               <strong>Carrie Crane</strong>.
             </p>
           </section>
-        </div>
+        </section>
 
-        <footer>
-          <div>
-            <p>&emsp;&copy; Carrie Crane.</p>
+        <footer class="footer">
+          <div class="footer__container">
+            <p class="footer__content">&emsp;&copy; Carrie Crane.</p>
           </div>
         </footer>
       </div>
